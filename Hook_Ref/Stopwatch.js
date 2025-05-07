@@ -34,7 +34,7 @@ function Stopwatch(){
                 clearInterval(intervaloRef.current);
             }
         };
-    }, []);
+    },[]);
 
     return (
         <div className="stopwatch">
