@@ -1,0 +1,66 @@
+/* Reset del body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Estilo del contenedor principal según el tema */
+  .blancobody,
+  .oscurobody {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Fondo claro */
+  .blancobody {
+    background-color: #f2f2f2;
+  }
+  
+  /* Fondo oscuro */
+  .oscurobody {
+    background-color: #121212;
+  }
+  
+  /* Tarjeta (div interno con tema) */
+  .blanco,
+  .oscuro {
+    padding: 2rem;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Colores específicos para temas */
+  .blanco {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .oscuro {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+  
+  /* Botón */
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
